@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "borz_ai"
+version = "0.1.0"
+description = "BORZ AI bot"
+authors = ["Юсуф <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+aiohttp = "3.8.1"
+aiogram = "2.25.2"
+async-timeout = "4.0.3"
+python-dotenv = "1.0.1"
+requests = "2.31.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
